@@ -1,0 +1,445 @@
+/** @format */
+* a{
+	color: blue;
+}
+
+* {
+	margin: 0;
+	background-color: rgb(244, 238, 227);
+	font-family: sans-serif;
+}
+body * {
+	background-color: #fff;
+}
+.text {
+	background-color: #fff;
+	font-size: small;
+}
+nav {
+	z-index: 2;
+	padding: 0 auto;
+	display: flex;
+	justify-content: space-around;
+	height: 3.5rem;
+	background-color: #fff;
+	position: fixed;
+	top: 0;
+	width: 100%;
+}
+nav div {
+	display: inline-block;
+	height: auto;
+	background-color: #fff;
+}
+.flex-row {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	gap: 1rem;
+}
+
+.no-gap {
+	display: flex;
+	gap: 0;
+}
+
+#linkedin-icon {
+	height: 2.3rem;
+	width: 2.3rem;
+}
+.search-border {
+	background-color: rgb(237, 248, 255);
+	display: flex;
+	height: 2rem;
+	justify-content: center;
+	align-items: center;
+}
+
+.search-border img,
+.search-border input {
+	border: none;
+	background-color: rgb(237, 248, 255);
+}
+
+.search-img {
+	height: 1.3rem;
+	width: 1.3rem;
+}
+
+.width-full {
+	width: 100%;
+	display: flex;
+	justify-content: space-between;
+}
+.flex-col {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+img {
+	height: 1.5rem;
+	width: 1.5rem;
+	background-color: #fff;
+}
+
+.imgtext {
+	display: flex;
+	gap: 3px;
+	opacity: 50%;
+}
+
+.imgtext:hover {
+	opacity: 100%;
+}
+
+.home-icon {
+	opacity: 100%;
+	border-bottom: 2px solid black;
+}
+
+.white-color {
+	background-color: #fff;
+}
+.search {
+	border: none;
+	width: 15rem;
+}
+
+/* .search:hover { */
+/* border: 1px solid dimgray;
+    width: 100%;
+} */
+
+/* Sections */
+
+.sections {
+	display: flex;
+	flex-direction: row;
+	background-color: rgb(244, 238, 227);
+	justify-content: center;
+	gap: 2rem;
+	margin: 5rem 5%;
+	/* padding: 0 7%; */
+	border-radius: 10px;
+}
+
+/* Section 1 */
+
+.outer-Section1 {
+	height: fit-content;
+	background-color: rgb(244, 238, 227);
+}
+
+.section1 {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-content: center;
+	padding: 1rem 0;
+	padding-top: 0;
+	width: 17rem;
+	height: fit-content;
+	border: 1px solid wheat;
+	border-radius: 10px;
+}
+
+.img-div {
+	display: flex;
+	justify-content: center;
+	align-content: center;
+
+	border-radius: 10px 10px 0px 0px;
+	border-bottom: none;
+}
+
+#prof-pic-0 {
+	/* position: relative; */
+	border-radius: 10px 10px 0 0;
+	top: 0;
+	width: 100%;
+	height: auto;
+}
+#prof-pic-1 {
+	height: 4rem;
+	width: 4rem;
+	position: absolute;
+	top: 7rem;
+	z-index: 1;
+	background-color: transparent;
+}
+
+.text-01 {
+	text-align: center;
+	margin-top: 2rem;
+	padding: 1rem 0;
+	border-bottom: 1px solid wheat;
+}
+.text-02 {
+	text-align: center;
+	width: 100%;
+	padding: 0.5rem 0;
+	border-bottom: 1px solid wheat;
+}
+
+.text-02-01 {
+	display: flex;
+	justify-content: space-between;
+	/* align-content: center; */
+	padding: 0 1rem;
+}
+
+.text-02-01-01 {
+	text-align: left;
+}
+.text-02-01-02 {
+	text-align: right;
+}
+
+.text-03 {
+	padding: 0.5rem 1rem;
+	text-align: left;
+	border-bottom: 1px solid wheat;
+}
+
+.saved {
+	padding: 0.5rem 1rem;
+	text-align: left;
+	border-radius: 0px 0px 10px 10px;
+	/* height: fit-content; */
+	display: flex;
+	align-items: center;
+	gap: 0.5rem;
+}
+
+.saved img {
+	height: 1.2rem;
+	width: 1.2rem;
+}
+
+/* Section 1 second half */
+
+.sec0102 {
+	padding: 1rem;
+	margin: 1rem 0;
+	border: 1px solid wheat;
+	border-radius: 10px;
+}
+
+.sec0102-p01 {
+	padding: 0.5rem 0;
+}
+
+.textsec010201 {
+	padding: 0.5rem 0;
+	font-size: 15px;
+}
+
+.img-text {
+	display: flex;
+	/* justify-content: center; */
+	align-items: center;
+}
+
+.img-text img {
+	height: 1.2rem;
+	width: 1.2rem;
+}
+
+.img-text p {
+	font-size: small;
+	padding-left: 0.7rem;
+}
+
+
+.sec0102-p03 {
+	display: flex;
+	justify-content: space-between;
+	padding: 0.7rem 0;
+}
+
+.sec0102-p05 {
+	padding: 0.7rem 0;
+	margin: 0 -1rem;
+	text-align: center;
+	border-top: 1px solid wheat;
+}
+
+/* Section 2 */
+
+.section2 {
+	width: 5rem;
+	background-color: rgb(244, 238, 227);
+
+	display: flex;
+	flex-direction: column;
+	gap: 0.5rem;
+	width: 35rem;
+}
+
+.section2-01 {
+	border: 1px solid wheat;
+	border-radius: 10px;
+	padding: 1rem;
+}
+
+.section2-01-01 {
+	display: flex;
+	gap: 1rem;
+}
+
+#prof-pic-2 {
+	height: 3rem;
+	width: 3rem;
+}
+
+.search-box {
+	border: 1px solid gray;
+	border-radius: 30px;
+	width: 100%;
+	padding: 0 1rem;
+}
+
+.section2-01-02 {
+	padding: 1rem 0 0 0;
+	display: flex;
+	justify-content: space-around;
+}
+
+.mewa {
+	display: flex;
+	gap: 0.5rem;
+	align-items: center;
+}
+
+.section2-02 {
+	border: 1px solid wheat;
+	border-radius: 10px;
+	padding: 1rem 0;
+}
+
+.section2-02-01 {
+	display: flex;
+	align-content: center;
+	justify-content: left;
+	gap: 0.7rem;
+	margin-bottom: 1rem;
+}
+
+.section2-02-01 img {
+	margin-left: 1rem;
+	height: 2.3rem;
+	width: 2.3rem;
+}
+
+.section2-02-02 {
+	color: dimgray;
+	padding: 1rem;
+}
+
+.post-img {
+	width: 100%;
+	height: auto;
+}
+
+.section2-02-03 {
+	display: flex;
+	justify-content: space-between;
+	padding: 0.5rem 1rem;
+}
+
+.section2-02 hr {
+	margin: 0 5%;
+}
+
+.section2-02-04 {
+	padding: 1rem;
+	display: flex;
+	justify-content: space-around;
+}
+
+.lcrs {
+	display: flex;
+	gap: 0.5rem;
+	align-items: center;
+}
+
+.section2-02-05 {
+	padding: 0 1rem;
+	font-size: small;
+	color: dimgray;
+}
+
+.sec02-p3 {
+	border: 1px solid wheat;
+	border-radius: 10px;
+}
+
+.p3-02{
+	margin: 0 1rem;
+}
+.p3-03{
+	margin: 0 1rem;
+}
+
+.p3-03>*{
+	padding: 0.5rem 0.7rem;
+}
+
+.p3-03 div>p{
+	border: 1px solid blue;
+	border-radius: 100px;
+	text-align: center;
+	color: blue;
+	padding: 0.4rem;
+	margin: 0.4rem 0;
+}
+
+.p3-03>p{
+	color: darkslategrey;
+}
+.p3>p{
+	margin: 0.5rem 1rem;
+	color: darkslategrey;
+}
+
+/* Section 3 */
+
+.section3 {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-content: center;
+	padding: 1rem;
+	width: 19rem;
+	height: fit-content;
+	border: 1px solid wheat;
+	border-radius: 10px;
+}
+
+.section3 h1 {
+	font-weight: 200;
+	/* padding-bottom: 8px ; */
+}
+
+#top-stories {
+	color: gray;
+	font-weight: 500;
+	font-size: medium;
+	padding: 0.5rem 0;
+}
+
+.section3 h3 {
+	font-size: 17px;
+	font-weight: 540;
+	padding: 5px 0;
+}
+
+.section3 div {
+	margin: 5px 0;
+}
+
+.section3 div p {
+	color: dimgray;
+	font-size: small;
+}
